@@ -76,7 +76,7 @@ az vm create \
     --name webVirtualMachine1 \
     --availability-set webAvailabilitySet \
     --nics webNic1 \
-    --image UbuntuLTS \
+    --image Ubuntu2204 \
     --admin-username azureuser \
     --generate-ssh-keys \
     --custom-data ~/networking/cloud-init.txt
@@ -86,7 +86,7 @@ az vm create \
     --name webVirtualMachine2 \
     --availability-set webAvailabilitySet \
     --nics webNic2 \
-    --image UbuntuLTS \
+    --image Ubuntu2204 \
     --admin-username azureuser \
     --generate-ssh-keys \
     --custom-data ~/networking/cloud-init.txt
